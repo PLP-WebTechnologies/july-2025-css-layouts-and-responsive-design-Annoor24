@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Flexbox + Grid Layout</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <h1>My Responsive Webpage</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN GRID LAYOUT -->
+  <main class="main-grid">
+    
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <h2>Sidebar</h2>
+      <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Reports</a></li>
+        <li><a href="#">Analytics</a></li>
+      </ul>
+    </aside>
+
+    <!-- CONTENT AREA -->
+    <section class="content">
+      <h2>Main Content</h2>
+      <p>
+        This is the main content area. On larger screens, this section sits next to the sidebar. On smaller screens, the layout stacks vertically.
+      </p>
+
+      <!-- FLEXBOX CARDS -->
+      <div class="cards">
+        <div class="card">
+          <h3>Card One</h3>
+          <p>Responsive card using Flexbox for alignment.</p>
+        </div>
+        <div class="card">
+          <h3>Card Two</h3>
+          <p>Cards will wrap and stack neatly on smaller screens.</p>
+        </div>
+        <div class="card">
+          <h3>Card Three</h3>
+          <p>Flexbox ensures proper spacing and alignment.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2025 Responsive Webpage Demo | Built with Flexbox & CSS Grid by Nuruddin Kabir</p>
+  </footer>
+
+</body>
+</html>
